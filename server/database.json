@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "btcrumble",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "logging": false,
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "btcrumble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "socketservice": "node socketservice/index.js",
+    "socketservicedev": "nodemon socketservice/index.js",
+    "log": "bunyan logs/log.log",
+    "logd": "bunyan logs/debug.log",
+    "cloc": "cloc --vcs git --exclude-lang=JSON ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.1",
+    "bcrypt": "^3.0.6",
+    "big.js": "^5.2.2",
+    "block_io": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.12",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.4",
+    "jimp": "^0.6.4",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mysql2": "^1.6.5",
+    "poloniex-api-node": "^2.0.1",
+    "sequelize": "^4.44.0",
+    "socket.io": "^2.2.0",
+    "validator": "^10.11.0",
+    "vue-websocket": "^0.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
